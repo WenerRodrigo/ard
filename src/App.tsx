@@ -8,6 +8,7 @@ import whatsapp from "./assets/whatsapp.png";
 import TopHeader from "./components/top-header";
 import Banner from "./components/banner";
 import Home from "./screens/home";
+import MainContent from "./components/main-content";
 
 
 
@@ -46,6 +47,7 @@ function App() {
               />
             </a>
           </div>
+          <MainContent />
           <ContentFooter />
           <Footer />
           <CookieConsent />
