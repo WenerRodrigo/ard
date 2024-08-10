@@ -18,21 +18,19 @@ const AboutHome = () => {
         </p>
         <a
           href="#"
-          className="px-6 py-2 bg-blue-500 text-white rounded-sm hover:bg-blue-600 mt-10"
+          className="px-8 py-2 bg-blue-500 text-white rounded-sm hover:bg-blue-600 mt-10"
         >
           Fale conosco
         </a>
       </div>
-
-      {/* Bloco de Imagens */}
       <div className="flex lg:flex-row items-center w-full lg:w-1/2 gap-4 lg:gap-6">
         <img
-          className="w-40 h-auto lg:w-[265px]"
+          className="w-44 h-auto lg:w-[265px]"
           src={bannerOne}
           alt="Banner Home"
         />
         <img
-          className="w-40 h-auto lg:w-[262px]"
+          className="w-44 h-auto lg:w-[262px]"
           src={bannerTwo}
           alt="Banner Home"
         />
