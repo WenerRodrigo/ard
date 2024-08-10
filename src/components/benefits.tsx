@@ -3,7 +3,7 @@ import { FaRegCheckCircle } from "react-icons/fa";
 const Beneficios = () => {
   return (
     <div className="flex items-center justify-center w-full bg-gray-100 flex-col pb-10">
-      <div className="text-center py-20">
+      <div className="text-center py-20 px-10">
         <h2 className="text-5xl font-medium mb-4 text-zinc-800">Benefícios</h2>
         <p className="text-gray-600">
           Confira as melhores vantagens de contar com a nossa garantia Motor e
