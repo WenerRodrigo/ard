@@ -12,7 +12,7 @@ const Beneficios = () => {
       </div>
 
       {/* Bloco de Benefícios */}
-      <div className="flex flex-col sm:flex-row items-start justify-between w-full sm:gap-10 px-4 sm:px-20">
+      <div className="flex flex-col sm:flex-row items-start justify-between w-full sm:gap-10 px-4 gap-5 sm:px-20">
       <div className="flex flex-col items-start text-start lg:w-1/5 w-full bg-white p-4">
           <p className="text-blue-500 text-3xl mb-2">
             <FaRegCheckCircle />
