@@ -18,7 +18,7 @@ const AboutHome = () => {
         </p>
         <a
           href="#"
-          className="px-10 py-4 bg-blue-500 text-white rounded-sm hover:bg-blue-600 mt-10"
+          className="px-20 py-2 bg-blue-500 text-white rounded-sm hover:bg-blue-600 mt-10"
         >
           Fale conosco
         </a>
