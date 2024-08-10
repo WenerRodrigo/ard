@@ -5,7 +5,15 @@ const MainContent = () => {
   const [isVisible, setIsVisible] = useState(false);
   const contentRef = useRef(null);
 
-  const startCounting = (endValue: number, setValue: { (value: SetStateAction<number>): void; (value: SetStateAction<number>): void; (value: SetStateAction<number>): void; (arg0: number): void; }) => {
+  const startCounting = (
+    endValue: number,
+    setValue: {
+      (value: SetStateAction<number>): void;
+      (value: SetStateAction<number>): void;
+      (value: SetStateAction<number>): void;
+      (arg0: number): void;
+    }
+  ) => {
     let start = 0;
     const duration = 2000; // duração total da contagem (em ms)
     const increment = endValue / (duration / 10);
@@ -58,20 +66,24 @@ const MainContent = () => {
   return (
     <div
       ref={contentRef}
-      className="flex items-center justify-evenly w-full bg-blue-300 py-24 flex-wrap gap-5"
+      className="flex flex-col sm:flex-row items-center justify-evenly w-full bg-blue-300 py-24 gap-5"
     >
-      <div className="flex flex-col items-center bg-white lg:w-1/5 sm:w-full py-6 rounded-md">
+      <div className="flex flex-col items-center bg-white w-full sm:w-1/3 lg:w-1/5 py-6 rounded-md">
         <p className="text-4xl font-medium text-zinc-800">+{yearsInMarket}</p>
         <p className="text-lg text-zinc-800">Anos no mercado</p>
       </div>
 
-      <div className="flex flex-col items-center bg-white lg:w-1/5 sm:w-full py-6 rounded-md">
-        <p className="text-4xl font-medium text-zinc-800">+{carsWithWarranty}</p>
+      <div className="flex flex-col items-center bg-white w-full sm:w-1/3 lg:w-1/5 py-6 rounded-md">
+        <p className="text-4xl font-medium text-zinc-800">
+          +{carsWithWarranty}
+        </p>
         <p className="text-lg text-zinc-800">Carros com Garantia</p>
       </div>
 
-      <div className="flex flex-col items-center bg-white lg:w-1/5 sm:w-full py-6 rounded-md">
-        <p className="text-4xl font-medium text-zinc-800">+{protectedVehicles}</p>
+      <div className="flex flex-col items-center bg-white w-full sm:w-1/3 lg:w-1/5 py-6 rounded-md">
+        <p className="text-4xl font-medium text-zinc-800">
+          +{protectedVehicles}
+        </p>
         <p className="text-lg text-zinc-800">Veículos Protegidos</p>
       </div>
     </div>
