@@ -1,5 +1,5 @@
 import { SetStateAction, useEffect, useRef, useState } from "react";
-// import bannerFundo from "../assets/banner-fundo.jpg";
+import bannerFundo from "../assets/banner-fundo.jpg";
 
 const MainContent = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -15,7 +15,7 @@ const MainContent = () => {
     }
   ) => {
     let start = 0;
-    const duration = 2000; // duração total da contagem (em ms)
+    const duration = 2000; 
     const increment = endValue / (duration / 10);
 
     const counter = setInterval(() => {
@@ -34,10 +34,10 @@ const MainContent = () => {
       (entries) => {
         if (entries[0].isIntersecting) {
           setIsVisible(true);
-          observer.disconnect(); // Desconecta após a primeira visualização
+          observer.disconnect();
         }
       },
-      { threshold: 0.1 } // O quanto do elemento precisa estar visível (0.1 = 10%)
+      { threshold: 0.1 }
     );
 
     if (contentRef.current) {
@@ -66,24 +66,26 @@ const MainContent = () => {
   return (
     <div
       ref={contentRef}
-      className="flex flex-col sm:flex-row items-center justify-evenly w-full bg-blue-300 py-24 px-4 sm:px-0 gap-5"
+      className="relative w-full py-24 px-5 sm:px-0 flex flex-col sm:flex-row items-center justify-evenly gap-5"
+      style={{
+        backgroundImage: `url(${bannerFundo})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+      }}
     >
-      <div className="flex flex-col items-center bg-white w-full sm:w-1/3 lg:w-1/5 py-6 rounded-md">
+      <div className="absolute inset-0 opacity-70 z-10"></div>
+      <div className="relative z-20 flex flex-col items-center bg-white w-full sm:w-1/3 lg:w-1/5 py-6 rounded-md">
         <p className="text-4xl font-medium text-zinc-800">+{yearsInMarket}</p>
         <p className="text-lg text-zinc-800">Anos no mercado</p>
       </div>
 
-      <div className="flex flex-col items-center bg-white w-full sm:w-1/3 lg:w-1/5 py-6 rounded-md">
-        <p className="text-4xl font-medium text-zinc-800">
-          +{carsWithWarranty}
-        </p>
+      <div className="relative z-20 flex flex-col items-center bg-white w-full sm:w-1/3 lg:w-1/5 py-6 rounded-md">
+        <p className="text-4xl font-medium text-zinc-800">+{carsWithWarranty}</p>
         <p className="text-lg text-zinc-800">Carros com Garantia</p>
       </div>
 
-      <div className="flex flex-col items-center bg-white w-full sm:w-1/3 lg:w-1/5 py-6 rounded-md">
-        <p className="text-4xl font-medium text-zinc-800">
-          +{protectedVehicles}
-        </p>
+      <div className="relative z-20 flex flex-col items-center bg-white w-full sm:w-1/3 lg:w-1/5 py-6 rounded-md">
+        <p className="text-4xl font-medium text-zinc-800">+{protectedVehicles}</p>
         <p className="text-lg text-zinc-800">Veículos Protegidos</p>
       </div>
     </div>
