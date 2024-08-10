@@ -6,7 +6,7 @@ const Banner = () => {
       <div className="relative">
         <img className="w-full h-[220px] sm:h-full sm:max-w-none" src={banner} alt="Banner Home" />
       </div>
-      <div className="absolute left-2 sm:left-20 text-left px-4 sm:px-0">
+      <div className="absolute left-2 sm:left-20 text-left px-6 sm:px-0">
         <p className="text-white text-2xl sm:text-4xl md:text-5xl font-semibold mb-2">
           A Garantia que o
           <br />
