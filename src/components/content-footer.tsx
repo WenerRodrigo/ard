@@ -2,6 +2,7 @@ import instagram from "../assets/instagram.png";
 import facebook from "../assets/facebook.png";
 import { GoArrowUp } from "react-icons/go";
 import { FaWhatsapp } from "react-icons/fa";
+import logo from "../assets/logo.png";
 
 const ContentFooter = () => {
   const scrollToTop = () => {
@@ -14,6 +15,10 @@ const ContentFooter = () => {
   return (
     <div className="relative">
       <div className="flex flex-col md:flex-row items-start justify-around w-full h-full bg-primary text-white py-16 px-5 flex-wrap text-left gap-4">
+        <div className="flex items-start">
+          {/* Logo visível apenas no mobile */}
+          <img className="w-2/5 md:hidden block" src={logo} alt="Logo ARD" />
+        </div>
         <div className="flex flex-col items-start">
           <h2 className="h-12 text-lg font-semibold">Nossa missão</h2>
           <p>
