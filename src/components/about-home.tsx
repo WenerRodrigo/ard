@@ -12,9 +12,9 @@ const AboutHome = () => {
           Nosso foco é a garantia estendida para motores e câmbios de veículos
           semi-novos. Oferecemos o produto Garantia Motor e Câmbio, que amplia o
           período de cobertura além da garantia original fornecida pelo
-          revendedor. Além disso, nosso serviço inclui assistência técnica
-          especializada e suporte dedicado, garantindo que qualquer problema
-          mecânico seja tratado com a máxima eficiência.
+          revendedor. Com isso, você tem mais tranquilidade e proteção para o
+          seu veículo, assegurando uma cobertura abrangente e confiável para
+          eventuais necessidades que possam surgir.
         </p>
         <div className="flex justify-center mt-10">
           <a
