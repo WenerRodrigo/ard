@@ -16,12 +16,14 @@ const AboutHome = () => {
           especializada e suporte dedicado, garantindo que qualquer problema
           mecânico seja tratado com a máxima eficiência.
         </p>
-        <a
-          href="#"
-          className="px-10 py-2 bg-blue-500 text-white text-center rounded-sm hover:bg-blue-600 mt-10"
-        >
-          Fale conosco
-        </a>
+        <div className="flex justify-center mt-10">
+          <a
+            href="#"
+            className="px-10 py-2 bg-blue-500 text-white text-center rounded-sm hover:bg-blue-600 block w-full lg:w-auto"
+          >
+            Fale conosco
+          </a>
+        </div>
       </div>
       <div className="flex lg:flex-row items-center w-full lg:w-1/2 gap-4 lg:gap-6">
         <img
