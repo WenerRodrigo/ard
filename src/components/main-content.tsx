@@ -74,17 +74,17 @@ const MainContent = () => {
       }}
     >
       <div className="absolute inset-0 opacity-70 z-10"></div>
-      <div className="relative z-20 flex flex-col items-center bg-white w-full sm:w-1/3 lg:w-1/5 py-6 rounded-md">
+      <div className="relative z-20 flex flex-col items-center bg-white w-full sm:w-1/3 lg:w-3/12 py-6 rounded-md">
         <p className="text-4xl font-medium text-zinc-800">+{yearsInMarket}</p>
         <p className="text-lg text-zinc-800">Anos no mercado</p>
       </div>
 
-      <div className="relative z-20 flex flex-col items-center bg-white w-full sm:w-1/3 lg:w-1/5 py-6 rounded-md">
+      <div className="relative z-20 flex flex-col items-center bg-white w-full sm:w-1/3 lg:w-3/12 py-6 rounded-md">
         <p className="text-4xl font-medium text-zinc-800">+{carsWithWarranty}</p>
         <p className="text-lg text-zinc-800">Carros com Garantia</p>
       </div>
 
-      <div className="relative z-20 flex flex-col items-center bg-white w-full sm:w-1/3 lg:w-1/5 py-6 rounded-md">
+      <div className="relative z-20 flex flex-col items-center bg-white w-full sm:w-1/3 lg:w-3/12 py-6 rounded-md">
         <p className="text-4xl font-medium text-zinc-800">+{protectedVehicles}</p>
         <p className="text-lg text-zinc-800">Veículos Protegidos</p>
       </div>

@@ -1,6 +1,5 @@
 import instagram from "../assets/instagram.png";
-import linkedin from "../assets/linkedin.png";
-import twitter from "../assets/twitter.png";
+import facebook from "../assets/facebook.png";
 import { GoArrowUp } from "react-icons/go";
 import { FaWhatsapp } from "react-icons/fa";
 
@@ -31,9 +30,6 @@ const ContentFooter = () => {
         </div>
         <div className="flex flex-col items-start">
           <h2 className="h-12 text-lg font-semibold">Institucional</h2>
-          <a href="/custom-web" className="mb-1">
-            Serviços
-          </a>
           <a href="/contact" className="mb-1">
             Contato
           </a>
@@ -51,12 +47,9 @@ const ContentFooter = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://www.linkedin.com/in/weroweb-solu%C3%A7%C3%B5es-02b92631a/"
+              href="#"
             >
-              <img className="w-9" src={linkedin} alt="Linkedin" />
-            </a>
-            <a href="#">
-              <img className="w-9" src={twitter} alt="Twitter" />
+              <img className="w-9" src={facebook} alt="Facebook" />
             </a>
           </div>
         </div>
@@ -66,12 +59,12 @@ const ContentFooter = () => {
           <p>
             <a
               className="flex gap-2 mb-2"
-              href="https://api.whatsapp.com/send?phone=+5516988213188"
+              href="https://api.whatsapp.com/send?phone=+5516999999999"
               target="_blank"
               rel="noreferrer"
             >
               <FaWhatsapp size={22} />
-              (16) 98821-3188
+              (16) 99999-9999
             </a>
           </p>
           {/* <p>
