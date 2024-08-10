@@ -1,7 +1,7 @@
 import { useState } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Footer from "./components/footer";
 import ContentFooter from "./components/content-footer";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import SplashScreen from "./components/splash";
 import CookieConsent from "./components/cookie-consent";
 import whatsapp from "./assets/whatsapp.png";
@@ -9,9 +9,7 @@ import TopHeader from "./components/top-header";
 import Banner from "./components/banner";
 import Home from "./screens/home";
 import MainContent from "./components/main-content";
-
-
-
+import NotFound from "./screens/not-found";
 
 function App() {
   const [isSplashVisible, setIsSplashVisible] = useState(true);
@@ -26,31 +24,39 @@ function App() {
         <SplashScreen onFinish={handleSplashFinish} />
       ) : (
         <BrowserRouter>
-        <TopHeader />
-        <Banner />
           <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} />
+            <Route
+              path="/"
+              element={
+                <>
+                  <TopHeader />
+                  <Banner />
+                  <Home />
+                  <div className="fixed bottom-10 right-5 z-40 flex items-center space-x-2">
+                    <a
+                      href="https://api.whatsapp.com/send?phone=+551699999999"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="items-center"
+                    >
+                      <img
+                        src={whatsapp}
+                        alt="WhatsApp"
+                        className="w-12 text-center object-cover"
+                        title="WhatsApp"
+                      />
+                    </a>
+                  </div>
+                  <MainContent />
+                  <ContentFooter />
+                  <Footer />
+                  <CookieConsent />
+                </>
+              }
+            />
+            <Route path="/home" element={<Home />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
-          <div className="fixed bottom-10 right-5 z-40 flex items-center space-x-2">
-            <a
-              href="https://api.whatsapp.com/send?phone=+551699999999"
-              target="_blank"
-              rel="noreferrer"
-              className="items-center"
-            >
-              <img
-                src={whatsapp}
-                alt="WhatsApp"
-                className="w-12 text-center object-cover"
-                title="WhatsApp"
-              />
-            </a>
-          </div>
-          <MainContent />
-          <ContentFooter />
-          <Footer />
-          <CookieConsent />
         </BrowserRouter>
       )}
     </div>
