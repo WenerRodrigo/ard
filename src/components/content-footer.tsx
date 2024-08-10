@@ -36,7 +36,6 @@ const ContentFooter = () => {
           <a href="/privacy-policy" className="mb-1">
             Política de privacidade
           </a>
-          <a href="/faq">FAQ</a>
         </div>
         <div className="flex flex-col items-start">
           <h2 className="h-12 text-lg font-semibold">Redes Sociais</h2>

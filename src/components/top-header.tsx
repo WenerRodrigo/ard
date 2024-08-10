@@ -9,7 +9,7 @@ const TopHeader = () => {
       </div>
       <div className="flex items-center gap-6 text-white">
         <p className="flex items-center gap-2 text-sm">
-          <FaClock /> SEG - SEX 9h às 18h
+          <FaClock /> SEG - SEX 8h às 18h - SAB 8h às 12h
         </p>
         <p className="flex items-center gap-2 text-sm">
           <BsFillTelephoneFill />

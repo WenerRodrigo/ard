@@ -1,23 +1,36 @@
+import banner from "../assets/banner-home.png";
+import ContentFooter from "../components/content-footer";
+import Footer from "../components/footer";
+
+
 const PrivacyPolicy = () => {
   return (
     <>
-      <div className="bg-blue-300 text-center py-20 px-5">
-        <h2 className="text-3xl text-white font-semibold">
-          Política de Privacidade
-        </h2>
-        <p className="text-white mt-2 text-lg">
-          Saiba como protegemos suas informações pessoais
-        </p>
+      <div className="flex items-center justify-center">
+        <div className="relative">
+          <img
+            className="w-full h-[220px] sm:h-full sm:max-w-none"
+            src={banner}
+            alt="Banner Home"
+          />
+        </div>
+        <div className="absolute left-2 sm:left-20 text-left px-6 sm:px-0">
+          <p className="text-white text-2xl sm:text-4xl md:text-5xl font-semibold mb-2">
+            Política de
+            <br />
+            Privacidade
+          </p>
+        </div>
       </div>
       <div className="max-w-4xl mx-auto p-6">
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-2">Introdução</h2>
           <p className="text-gray-700">
-            A Weroweb Soluções valoriza a privacidade dos seus usuários e se
+            A ARD valoriza a privacidade dos seus usuários e se
             compromete a proteger todas as informações pessoais coletadas. Esta
             Política de Privacidade descreve como coletamos, usamos, protegemos
             e compartilhamos suas informações pessoais quando você utiliza
-            nossos serviços e nosso site (weroweb.com.br).
+            nossos serviços e nosso site (www.ardmotorecambio.com.br).
           </p>
         </section>
 
@@ -160,6 +173,8 @@ const PrivacyPolicy = () => {
           </p>
         </section>
       </div>
+      <ContentFooter />
+      <Footer />
     </>
   );
 };

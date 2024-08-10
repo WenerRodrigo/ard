@@ -10,6 +10,7 @@ import Banner from "./components/banner";
 import Home from "./screens/home";
 import MainContent from "./components/main-content";
 import NotFound from "./screens/not-found";
+import PrivacyPolicy from "./screens/privacy-policy";
 
 function App() {
   const [isSplashVisible, setIsSplashVisible] = useState(true);
@@ -55,6 +56,7 @@ function App() {
               }
             />
             <Route path="/home" element={<Home />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
