@@ -12,14 +12,14 @@ const Beneficios = () => {
       </div>
 
       {/* Bloco de Benefícios */}
-      <div className="flex flex-col lg:flex-row items-start justify-between w-full gap-10 px-20">
-        <div className="flex flex-col items-start text-start lg:w-1/5 w-full bg-white p-4">
-          <p className="text-blue-500 text-4xl mb-2">
+      <div className="flex flex-col sm:flex-row items-start justify-between w-full sm:gap-10 px-4 sm:px-20">
+      <div className="flex flex-col items-start text-start lg:w-1/5 w-full bg-white p-4">
+          <p className="text-blue-500 text-3xl mb-2">
             <FaRegCheckCircle />
           </p>
-          <p className="text-xl font-medium text-zinc-800 mb-1">Cobertura</p>
-          <p className="text-xl font-medium text-zinc-800 mb-4">Abrangente</p>
-          <p className="text-md text-gray-600">
+          <p className="text-xl sm:text-xl font-medium text-zinc-800 mb-1">Cobertura</p>
+          <p className="text-xl sm:text-xl font-medium text-zinc-800 mb-4">Abrangente</p>
+          <p className="text-md sm:text-md text-gray-600">
             A nossa garantia cobre problemas associados ao motor e ao câmbio do
             veículo, fornecendo proteção extra contra falhas e defeitos nesses
             componentes fundamentais.
