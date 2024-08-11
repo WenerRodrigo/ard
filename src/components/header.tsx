@@ -1,6 +1,5 @@
 import { useState, useEffect, useRef } from "react";
 import logo from "../assets/logo.png";
-import MenuMobile from "./_menu-mobile";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,7 +28,7 @@ const Header = () => {
 
   return (
     <div className="bg-white flex justify-between items-center">
-      <div className="flex items-center w-full">
+       <div className="hidden lg:flex items-center w-full">
         <a href="/" className="flex items-center">
           <img src={logo} alt="Logo" className="w-24" />
           <h1 className="font-semibold">
