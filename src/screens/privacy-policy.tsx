@@ -1,11 +1,13 @@
 import banner from "../assets/banner-home.png";
 import ContentFooter from "../components/content-footer";
 import Footer from "../components/footer";
+import Header from "../components/header";
 
 
 const PrivacyPolicy = () => {
   return (
     <>
+    <Header />
       <div className="flex items-center justify-center">
         <div className="relative">
           <img

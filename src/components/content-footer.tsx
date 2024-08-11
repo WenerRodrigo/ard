@@ -15,19 +15,22 @@ const ContentFooter = () => {
     <div className="relative">
       <div className="flex flex-col md:flex-row items-start justify-around w-full h-full bg-primary text-white py-16 px-5 flex-wrap text-left gap-4">
         <div className="flex flex-col items-start">
-          <h2 className="h-12 text-lg font-semibold">Nossa missão</h2>
+          <h2 className="h-12 text-lg font-semibold">Nossa Missão</h2>
           <p>
-            Diante de um mercado competitivo,
+            Em um mercado altamente competitivo,
             <br />
-            nossa missão é fornecer aos nossos
+            nossa missão é oferecer aos nossos
             <br />
-            clientes maior satisfação e serviços de
+            clientes uma garantia estendida para motor
             <br />
-            qualidade para atender todas
+            e câmbio de veículos semi-novos,
             <br />
-            as suas necessidades.
+            assegurando serviços de excelência e
+            <br />
+            satisfação em cada etapa do processo.
           </p>
         </div>
+
         <div className="flex flex-col items-start">
           <h2 className="h-12 text-lg font-semibold">Institucional</h2>
           <a href="/contact" className="mb-1">
@@ -43,11 +46,7 @@ const ContentFooter = () => {
             <a href="#">
               <img className="w-9" src={instagram} alt="Instagram" />
             </a>
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="#"
-            >
+            <a target="_blank" rel="noreferrer" href="#">
               <img className="w-9" src={facebook} alt="Facebook" />
             </a>
           </div>

@@ -11,6 +11,7 @@ import Home from "./screens/home";
 import MainContent from "./components/main-content";
 import NotFound from "./screens/not-found";
 import PrivacyPolicy from "./screens/privacy-policy";
+import Header from "./components/header";
 
 function App() {
   const [isSplashVisible, setIsSplashVisible] = useState(true);
@@ -31,6 +32,7 @@ function App() {
               element={
                 <>
                   <TopHeader />
+                  <Header />
                   <Banner />
                   <Home />
                   <div className="fixed bottom-10 right-5 z-40 flex items-center space-x-2">

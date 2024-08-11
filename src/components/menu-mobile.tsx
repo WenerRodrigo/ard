@@ -1,4 +1,4 @@
-import { ChevronDown, ChevronRight, Menu, X } from "lucide-react";
+import { ChevronRight, Menu, X } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import logo from "../assets/logo.png";
 
@@ -67,8 +67,8 @@ const MenuMobile = () => {
             <span>
               <img className="w-8" src={logo} alt="Logo" />
             </span>{" "}
-            <span className="font-semibold">eroweb </span>
-            <span className="text-blue-600 ml-1 font-semibold">Soluções</span>
+            <span className="font-semibold">Garantia</span>
+            <span className="text-blue-600 ml-1 font-semibold">para motor e câmbio</span>
           </div>
           <ul className="text-lg">
             <li className="my-2 py-1">
@@ -98,78 +98,6 @@ const MenuMobile = () => {
                   className={`${activeLink === "/about" ? "text-blue-500" : "text-zinc-800"}`}
                 />
               </a>
-            </li>
-            <li className="my-2 py-1">
-              <div
-                onClick={() => toggleSubMenu("services")}
-                className={`cursor-pointer flex items-center justify-between text-xl ${
-                  expandedMenu === "services"
-                    ? "text-blue-500"
-                    : "text-zinc-800"
-                }`}
-              >
-                Soluções
-                {expandedMenu === "services" ? (
-                  <ChevronDown className="ml-2" />
-                ) : (
-                  <ChevronRight className="ml-2" />
-                )}
-              </div>
-              {expandedMenu === "services" && (
-                <ul className="pl-4 mt-3">
-                  <li>
-                    <a
-                      href="/landing-page"
-                      onClick={() => handleLinkClick("/landing-page")}
-                      className={`flex items-center justify-between text-lg ${
-                        activeLink === "/landing-page"
-                          ? "text-blue-500"
-                          : "text-zinc-800"
-                      }`}
-                    >
-                      Landing Page
-                      <ChevronRight
-                        className={`${activeLink === "/landing-page" ? "text-blue-500" : "text-zinc-800"}`}
-                      />
-                    </a>
-                  </li>
-                  <li className="mt-2">
-                    <a
-                      href="/custom-web"
-                      onClick={() => handleLinkClick("/custom-web")}
-                      className={`flex items-center justify-between text-lg ${
-                        activeLink === "/custom-web"
-                          ? "text-blue-500"
-                          : "text-zinc-800"
-                      }`}
-                    >
-                      Sites Personalizados
-                      <ChevronRight
-                        className={`${activeLink === "/custom-web" ? "text-blue-500" : "text-zinc-800"}`}
-                      />
-                    </a>
-                  </li>
-                  <li className="mt-2">
-                    <a
-                      href="/apps"
-                      onClick={() => handleLinkClick("/apps")}
-                      className={`flex items-center justify-between text-lg ${
-                        activeLink === "/apps"
-                          ? "text-blue-500"
-                          : "text-zinc-800"
-                      }`}
-                    >
-                      App Mobile
-                      <ChevronRight
-                        className={`${activeLink === "/apps" ? "text-blue-500" : "text-zinc-800"}`}
-                      />
-                    </a>
-                  </li>
-                  {/* Adicione outros itens do submenu aqui conforme necessário */}
-                </ul>
-              )}
-            </li>
-            <li className="my-2 py-1">
               <a
                 href="/contact"
                 onClick={() => handleLinkClick("/contact")}
