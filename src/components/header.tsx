@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import logo from "../assets/logo.png";
-import MenuMobile from "./menu-mobile";
+import MenuMobile from "./_menu-mobile";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -42,9 +42,6 @@ const Header = () => {
         <a href="/about">A Empresa</a>
         <a href="#beneficios" onClick={scrollToBeneficios}>Produtos</a>
         <a href="#">Contato</a>
-      </div>
-      <div className="p-5">
-        <MenuMobile />
       </div>
     </div>
   );
