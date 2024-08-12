@@ -39,16 +39,16 @@ const ContentFooter = () => {
           <a href="/privacy-policy" className="mb-1">
             Política de privacidade
           </a>
-        </div>
-        <div className="flex flex-col items-start">
-          <h2 className="h-12 text-lg font-semibold">Redes Sociais</h2>
-          <div className="flex items-center gap-2">
-            <a href="#">
-              <img className="w-9" src={instagram} alt="Instagram" />
-            </a>
-            <a target="_blank" rel="noreferrer" href="#">
-              <img className="w-9" src={facebook} alt="Facebook" />
-            </a>
+          <div className="flex flex-col items-start mt-2">
+            <h2 className="h-12 text-lg font-semibold">Redes Sociais</h2>
+            <div className="flex items-center gap-2">
+              <a href="#">
+                <img className="w-9" src={instagram} alt="Instagram" />
+              </a>
+              <a target="_blank" rel="noreferrer" href="#">
+                <img className="w-9" src={facebook} alt="Facebook" />
+              </a>
+            </div>
           </div>
         </div>
 
@@ -75,6 +75,16 @@ const ContentFooter = () => {
               werowebsolutions@.com.br
             </a>
           </p> */}
+        </div>
+
+        <div className="flex flex-col items-start gap-1">
+          <h2 className="h-12 text-lg font-semibold">ARD Motor e Câmbio</h2>
+          <p>Garantia para motor e câmbio</p>
+          <p className="text-sm text-white">
+            Razão Social: Ard Garantia De Motor E Cambio Ltda
+          </p>
+          <p className="text-sm text-white">CNPJ: 56.283.588/0001-92</p>
+          <p className="text-sm text-white">SAC: 16 99999 - 9999</p>
         </div>
       </div>
       <div className="flex items-center justify-center absolute w-full bottom-0 border-b">
