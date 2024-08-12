@@ -27,20 +27,20 @@ const Header = () => {
   };
 
   return (
-    <div className="bg-white flex justify-between items-center">
+    <div className="bg-white flex justify-between items-center px-14">
        <div className="hidden lg:flex items-center w-full">
         <a href="/" className="flex items-center">
-          <img src={logo} alt="Logo" className="w-24" />
-          <h1 className="font-semibold">
-            Garantia <span className="text-blue-600">para motor e câmbio</span>
+          <img src={logo} alt="Logo" className="w-20" />
+          <h1 className="font-bold">
+            Garantia para<br /> <span className="text-blue-600">motor e câmbio</span>
           </h1>
         </a>
       </div>
       <div className="hidden lg:flex items-center justify-around w-full">
-        <a href="/">Início</a>
-        <a href="/about">A Empresa</a>
-        <a href="#beneficios" onClick={scrollToBeneficios}>Produtos</a>
-        <a href="#">Contato</a>
+        <a href="/" className="hover:text-gray-600 font-medium">Início</a>
+        <a href="/about" className="hover:text-gray-600 font-medium">A empresa</a>
+        <a href="#beneficios" className="hover:text-gray-600 font-medium" onClick={scrollToBeneficios}>Produtos</a>
+        <a href="#" className="hover:text-gray-600 font-medium">Contato</a>
       </div>
     </div>
   );
