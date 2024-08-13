@@ -40,7 +40,7 @@ const Header = () => {
         <a href="/" className="hover:text-gray-600 font-medium">Início</a>
         <a href="/about" className="hover:text-gray-600 font-medium">A empresa</a>
         <a href="#beneficios" className="hover:text-gray-600 font-medium" onClick={scrollToBeneficios}>Produtos</a>
-        <a href="#" className="hover:text-gray-600 font-medium">Contato</a>
+        <a href="https://api.whatsapp.com/send?phone=+551699999999" target="_blank" className="font-medium bg-blue-400 hover:bg-blue-500 text-white px-4 py-2 rounded-md">Contato</a>
       </div>
     </div>
   );

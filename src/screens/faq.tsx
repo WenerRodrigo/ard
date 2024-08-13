@@ -1,5 +1,8 @@
 import { useState } from "react";
-import { FaQuestion } from "react-icons/fa";
+import Header from "../components/header";
+import banner from "../assets/banner-home.png";
+import ContentFooter from "../components/content-footer";
+import Footer from "../components/footer";
 
 const Faq = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -10,43 +13,71 @@ const Faq = () => {
 
   const faqs = [
     {
-      question: "Como faço para contratar um site?",
+      question: "Por que contratar o Garantia Mecânica?",
       answer:
-        "Para contratar um site, basta preencher nosso formulário de contato. Um de nossos especialistas entrará em contato para discutir seu projeto e fornecer um orçamento personalizado.",
+        "A Garantia Mecânica oferece cobertura adicional que protege o seu veículo contra defeitos mecânicos, garantindo tranquilidade e segurança para você.",
     },
     {
-      question: "Qual é o prazo de entrega de um site?",
+      question: "Seguro e Garantia Mecânica é a mesma coisa?",
       answer:
-        "O prazo de entrega pode variar conforme a complexidade do projeto, mas geralmente entregamos sites prontos em até 30 dias úteis. Manteremos você informado ao longo do processo.",
+        "NÃO. O seguro do carro te dá cobertura contra roubo, danos pessoais ou a terceiros, por exemplo. A Garantia Mecânica oferece um seguro de 1 ano após a aquisição do seu carro na revendedora, com cobertura de itens mecânicos e mão de obra inerente à aplicação dos componentes, conforme o plano contratado.",
     },
     {
-      question: "Posso alterar o site depois de pronto?",
+      question: "Como contratar o Garantia Mecânica?",
       answer:
-        "Sim, você pode alterar o conteúdo do site sempre que necessário. Oferecemos suporte contínuo para atualizações e ajustes pós-lançamento.",
+        "Você pode contratar o Garantia Mecânica entrando em contato conosco através do nosso site ou por telefone. Nossos consultores estão prontos para ajudar.",
     },
     {
-      question: "O site é responsivo?",
+      question: "Minha Garantia cobre 100% meu carro?",
       answer:
-        "Sim, todos os sites que desenvolvemos são projetados para serem totalmente responsivos, garantindo uma experiência de usuário consistente em qualquer dispositivo.",
+        "NÃO. A garantia cobre apenas os itens mecânicos, como motor e câmbio do veículo. Itens de desgaste natural, como pastilhas de freio, pneus e bateria, não estão cobertos entre outros.",
     },
     {
-      question: "Qual é a forma de pagamento?",
+      question: "Posso transferir minha Garantia Mecânica?",
       answer:
-        "Aceitamos diversos métodos de pagamento, incluindo cartões de crédito, Pix e transferências bancárias. Escolha a forma que melhor se adapta às suas necessidades.",
+        "Não. O serviço da ARD é pessoal e intransferível do comprador do veículo,perdendo sua validade em caso de transferência de propriedade.",
+    },
+    {
+      question:
+        "Como proceder se meu veículo apresentar um defeito mecânico aos finais de semana?",
+      answer:
+        "É de sua responsabilidade o transporte do veículo até a oficina ou um local seguro para que no próximo dia útil você possa abrir um chamado em horário comercial e verificar uma oficina indicada pelos técnicos.",
+    },
+    {
+      question: "Onde devo fazer a manutenção preventiva?",
+      answer:
+        "Em oficinas mecânicas, concessionárias ou centros automotivos que possam fornecer NOTA FISCAL ou CUPOM FISCAL, do serviço para comprovação da manutenção.",
+    },
+    {
+      question: "A Garantia Mecânica pode ser renovada após o término da vigência original?",
+      answer:
+        "NÃO. A vigência original do termo é de 12 meses, se encerrando a responsabilidade da ARD sob as condições previstas no Termo de Garantia.",
     },
   ];
 
   return (
     <>
-      <div className="bg-blue-300 text-center py-20 px-5">
-        <h2 className="text-3xl text-white font-bold">Perguntas Frequentes</h2>
-        <p className="text-white mt-4 text-lg">
-          Esclareça suas dúvidas sobre nossos serviços.
-        </p>
+      <Header />
+      <div className="flex items-center justify-center">
+        <div className="relative">
+          <img
+            className="w-full h-[220px] sm:h-full sm:max-w-none"
+            src={banner}
+            alt="Banner Home"
+          />
+        </div>
+        <div className="absolute left-2 sm:left-20 text-left px-6 sm:px-0">
+          <p className="text-white text-2xl sm:text-4xl md:text-5xl font-semibold mb-2">
+            Dúvidas frequentes
+          </p>
+          <p className="text-white text-lg sm:text-2xl md:text-xl">
+            Encontre respostas para as perguntas mais comuns
+          </p>
+        </div>
       </div>
       <div className="flex items-center justify-center mt-10">
-        <h1 className="flex items-center text-5xl font-bold">
-          FAQ <FaQuestion size={40} />
+        <h1 className="flex items-center text-4xl font-bold">
+          Dúvidas frequentes
         </h1>
       </div>
       <div className="flex items-center justify-center w-full py-10">
@@ -94,7 +125,7 @@ const Faq = () => {
           Tem alguma dúvida?
         </span>
         <a
-          href="https://api.whatsapp.com/send?phone=+5516988213188"
+          href="https://api.whatsapp.com/send?phone=+5516999999999"
           target="_blank"
           rel="noreferrer"
           className="px-6 py-3 bg-blue-500 text-white rounded-lg transition-all duration-300 ease-in-out hover:bg-blue-600 hover:text-white hover:border-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
@@ -102,6 +133,8 @@ const Faq = () => {
           Fale conosco
         </a>
       </div>
+      <ContentFooter />
+      <Footer />
     </>
   );
 };

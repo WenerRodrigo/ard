@@ -33,8 +33,8 @@ const ContentFooter = () => {
 
         <div className="flex flex-col items-start">
           <h2 className="h-12 text-lg font-semibold">Institucional</h2>
-          <a href="/contact" className="mb-1">
-            Contato
+          <a href="/faq" className="mb-1">
+            FAQ
           </a>
           <a href="/privacy-policy" className="mb-1">
             Política de privacidade
