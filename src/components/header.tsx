@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef } from "react";
-import logo from "../assets/logo.png";
 import MenuMobile from "./menu-mobile";
 
 const Header = () => {
@@ -19,7 +18,6 @@ const Header = () => {
     };
   }, []);
 
-  // Função para rolar suavemente para a seção de benefícios
   const scrollToBeneficios = () => {
     const section = document.getElementById("beneficios");
     if (section) {

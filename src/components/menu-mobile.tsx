@@ -1,24 +1,15 @@
 import { ChevronRight, Menu, X } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
-import logo from "../assets/logo.png";
 
 const MenuMobile = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeLink, setActiveLink] = useState<string | null>(null);
-  const [expandedMenu, setExpandedMenu] = useState<string | null>(null);
+  const [_expandedMenu, setExpandedMenu] = useState<string | null>(null);
   const menuRef = useRef<HTMLDivElement | null>(null);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
     setExpandedMenu(null);
-  };
-
-  const toggleSubMenu = (menu: string) => {
-    if (expandedMenu === menu) {
-      setExpandedMenu(null);
-    } else {
-      setExpandedMenu(menu);
-    }
   };
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -47,7 +38,7 @@ const MenuMobile = () => {
   };
 
   return (
-    <div className="flex items-center py-3 px-7 bg-primary">
+    <div className="flex items-center py-3 px-7 bg-primary lg:hidden">
       <button
         onClick={toggleMenu}
         className="mr-auto block lg:hidden focus:outline-none text-white"
@@ -63,7 +54,6 @@ const MenuMobile = () => {
         }`}
       >
         <div className="bg-white w-80 h-full p-4 rounded-r-xl relative">
-          {/* Botão de fechar (X) dentro do menu, no topo direito */}
           <button
             onClick={toggleMenu}
             className="absolute top-4 right-4 focus:outline-none"
@@ -71,7 +61,6 @@ const MenuMobile = () => {
           >
             <X size="24" />
           </button>
-
           <div className="flex items-center border-b mb-4 py-2">
             <span className="font-semibold">Olá, bem vindo</span>
           </div>

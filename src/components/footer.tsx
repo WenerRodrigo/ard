@@ -4,8 +4,8 @@ const Footer = () => {
   const mensagemDireitosAutorais = `© ${description} ${anoAtual} - Todos os direitos reservados.`;
 
   return (
-    <div className="flex items-center w-full justify-center gap-3 py-4 flex-col bg-primary">
-      <p className="text-center text-sm text-white font-semibold">
+    <div className="flex items-center w-full justify-center gap-3 py-4 flex-col bg-secondary">
+      <p className="text-center text-sm text-zinc-800 font-semibold">
         {mensagemDireitosAutorais}
       </p>
       <p>
@@ -13,7 +13,7 @@ const Footer = () => {
           href="https://www.werowebsolucoes.com.br/"
           target="_blank"
           rel="noreferrer"
-          className="text-sm text-white"
+          className="text-sm text-zinc-800"
         >
           Desenvolvido por Weroweb
         </a>

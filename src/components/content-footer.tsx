@@ -2,6 +2,7 @@ import instagram from "../assets/instagram.png";
 import facebook from "../assets/facebook.png";
 import { GoArrowUp } from "react-icons/go";
 import { FaWhatsapp } from "react-icons/fa";
+import { TfiEmail } from "react-icons/tfi";
 
 const ContentFooter = () => {
   const scrollToTop = () => {
@@ -13,7 +14,7 @@ const ContentFooter = () => {
 
   return (
     <div className="relative">
-      <div className="flex flex-col md:flex-row items-start justify-around w-full h-full bg-primary text-white py-16 px-5 flex-wrap text-left gap-4">
+      <div className="flex flex-col md:flex-row items-start justify-around w-full h-full bg-secondary text-zinc-800 py-16 px-5 flex-wrap text-left gap-4">
         <div className="flex flex-col items-start">
           <h2 className="h-12 text-lg font-semibold">Nossa Missão</h2>
           <p>
@@ -65,16 +66,16 @@ const ContentFooter = () => {
               (16) 99999-9999
             </a>
           </p>
-          {/* <p>
+          <p>
             <a
               className="flex gap-2"
               href="mailto: werowebsolutions@.com.br"
               rel="noopener noreferrer"
             >
               <TfiEmail size={22} />
-              werowebsolutions@.com.br
+              ardgarantiamotorecambio.com.br
             </a>
-          </p> */}
+          </p>
         </div>
 
         <div className="flex flex-col items-start gap-1">
@@ -89,7 +90,7 @@ const ContentFooter = () => {
       </div>
       <div className="flex items-center justify-center absolute w-full bottom-0 border-b">
         <button
-          className="bg-white px-2 py-1 rounde rounded-t-xl text-sm flex items-center gap-1 text-gray-600"
+          className="bg-slate-200 px-2 py-1 rounde rounded-t-xl text-sm flex items-center gap-1 text-gray-600"
           onClick={scrollToTop}
         >
           voltar ao topo <GoArrowUp />
