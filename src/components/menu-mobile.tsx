@@ -47,7 +47,7 @@ const MenuMobile = () => {
   };
 
   return (
-    <div className="flex items-center py-2 px-2 bg-primary">
+    <div className="flex items-center py-3 px-7 bg-primary">
       <button
         onClick={toggleMenu}
         className="mr-auto block lg:hidden focus:outline-none text-white"
