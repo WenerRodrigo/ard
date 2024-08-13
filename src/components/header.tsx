@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import logo from "../assets/logo.png";
+import MenuMobile from "./_menu-mobile";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -42,6 +43,7 @@ const Header = () => {
         <a href="#beneficios" className="hover:text-gray-600 font-medium" onClick={scrollToBeneficios}>Produtos</a>
         <a href="https://api.whatsapp.com/send?phone=+551699999999" target="_blank" className="font-medium bg-blue-400 hover:bg-blue-500 text-white px-4 py-2 rounded-md">Contato</a>
       </div>
+      <MenuMobile />
     </div>
   );
 };
