@@ -29,16 +29,16 @@ const Header = () => {
 
   return (
     <>
-      <div className="bg-white flex justify-between items-center px-14">
-        <div className="hidden lg:flex items-center w-full">
-          <a href="/" className="flex items-center">
-            <img src={logo} alt="Logo" className="w-20" />
-            <h1 className="font-bold">
-              Garantia para
-              <br /> <span className="text-blue-600">motor e câmbio</span>
-            </h1>
-          </a>
+      <div className="bg-white flex justify-between items-center px-20 py-2">
+        <div className="hidden lg:flex flex-col items-start justify-start w-full">
+          <h2 className="text-4xl font-extrabold text-blue-600 tracking-wide uppercase">
+            ARD
+          </h2>
+          <p className="text-lg font-semibold text-gray-900">
+            Garantia para motor e câmbio
+          </p>
         </div>
+
         <div className="hidden lg:flex items-center justify-around w-full">
           <a href="/" className="hover:text-gray-600 font-medium">
             Início
@@ -56,7 +56,7 @@ const Header = () => {
           <a
             href="https://api.whatsapp.com/send?phone=+551699999999"
             target="_blank"
-            className="font-medium bg-blue-400 hover:bg-blue-500 text-white px-4 py-2 rounded-md"
+            className="font-medium bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-md"
           >
             Contato
           </a>

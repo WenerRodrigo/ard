@@ -47,10 +47,10 @@ const MenuMobile = () => {
   };
 
   return (
-    <div className="flex items-center py-2 px-2">
+    <div className="flex items-center py-2 px-2 bg-primary">
       <button
         onClick={toggleMenu}
-        className="mr-auto block lg:hidden focus:outline-none"
+        className="mr-auto block lg:hidden focus:outline-none text-white"
         aria-label="Menu"
       >
         {isOpen ? <X size="24" /> : <Menu size="24" />}

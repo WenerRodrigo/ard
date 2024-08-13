@@ -3,9 +3,9 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 
 const TopHeader = () => {
   return (
-    <div className="w-full py-2  hidden sm:flex justify-between items-center px-20 bg-blue-500">
+    <div className="w-full py-2  hidden sm:flex justify-between items-center px-20 bg-blue-600">
       <div className="text-white">
-        <p className="text-sm">Bem-Vindo a ARD Garantia para motor e câmbio</p>
+        <p className="text-sm">Bem-Vindo a ARD</p>
       </div>
       <div className="flex items-center gap-6 text-white px-6">
         <p className="flex items-center gap-2 text-sm">
