@@ -47,10 +47,10 @@ const MenuMobile = () => {
   };
 
   return (
-    <div className="flex items-center">
+    <div className="flex items-center py-2 px-2">
       <button
         onClick={toggleMenu}
-        className="ml-auto block lg:hidden focus:outline-none"
+        className="mr-auto block lg:hidden focus:outline-none"
         aria-label="Menu"
       >
         {isOpen ? <X size="24" /> : <Menu size="24" />}
@@ -62,22 +62,26 @@ const MenuMobile = () => {
           isOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
-        <div className="bg-white w-80 h-full p-4 rounded-r-xl">
+        <div className="bg-white w-80 h-full p-4 rounded-r-xl relative">
+          {/* Botão de fechar (X) dentro do menu, no topo direito */}
+          <button
+            onClick={toggleMenu}
+            className="absolute top-4 right-4 focus:outline-none"
+            aria-label="Fechar Menu"
+          >
+            <X size="24" />
+          </button>
+
           <div className="flex items-center border-b mb-4 py-2">
-            <span>
-              <img className="w-8" src={logo} alt="Logo" />
-            </span>{" "}
-            <span className="font-semibold">Garantia</span>
-            <span className="text-blue-600 ml-1 font-semibold">para motor e câmbio</span>
+            <span className="font-semibold">Olá, bem vindo</span>
           </div>
           <ul className="text-lg">
-            <li className="my-2 py-1">
+            <li className="my-2">
               <a
                 href="/"
                 onClick={() => handleLinkClick("/")}
                 className={`flex items-center justify-between text-xl ${
-                  activeLink === "/" ? "text-blue-500" : "text-zinc-800"
-                }`}
+                  activeLink === "/" ? "text-blue-500" : "text-zinc-800"}`}
               >
                 Início
                 <ChevronRight
@@ -85,7 +89,7 @@ const MenuMobile = () => {
                 />
               </a>
             </li>
-            <li className="my-2 py-1">
+            <li className="my-2">
               <a
                 href="/about"
                 onClick={() => handleLinkClick("/about")}
@@ -98,16 +102,18 @@ const MenuMobile = () => {
                   className={`${activeLink === "/about" ? "text-blue-500" : "text-zinc-800"}`}
                 />
               </a>
+            </li>
+            <li className="my-2">
               <a
-                href="/contact"
-                onClick={() => handleLinkClick("/contact")}
+                href="/about"
+                onClick={() => handleLinkClick("/about")}
                 className={`flex items-center justify-between text-xl ${
-                  activeLink === "/contact" ? "text-blue-500" : "text-zinc-800"
+                  activeLink === "/about" ? "text-blue-500" : "text-zinc-800"
                 }`}
               >
-                Solicitar orçamento
+                A empresa
                 <ChevronRight
-                  className={`${activeLink === "/contact" ? "text-blue-500" : "text-zinc-800"}`}
+                  className={`${activeLink === "/about" ? "text-blue-500" : "text-zinc-800"}`}
                 />
               </a>
             </li>
