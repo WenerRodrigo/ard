@@ -29,7 +29,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="bg-white flex justify-between items-center px-20 py-2">
+      <div className="bg-white flex justify-between items-center px-20">
         <div className="hidden lg:flex flex-col items-start justify-start w-full">
           <h2 className="text-4xl font-extrabold text-blue-600 tracking-wide uppercase">
             ARD
