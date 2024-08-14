@@ -15,14 +15,14 @@ const About = () => {
             alt="Banner Home"
           />
         </div>
-        <div className="absolute left-2 sm:left-20 text-left px-6 sm:px-0">
+        <div className="absolute left-2 sm:left-20 text-left px-5 sm:px-0">
           <p className="text-white text-2xl sm:text-4xl md:text-5xl font-semibold mb-2">
             Sobre a ARD Garantia
           </p>
         </div>
       </div>
       <div className="bg-gray-100 py-12">
-        <div className="mx-auto lg:px-20 px-9">
+        <div className="mx-auto lg:px-20 px-5">
           <div>
             <section className="mb-12">
               <h2 className="text-3xl font-semibold mb-4">Quem Somos</h2>
@@ -44,7 +44,7 @@ const About = () => {
               </p>
             </section>
 
-            <section className="mb-12">
+            <section className="mb-8">
               <h2 className="text-3xl font-semibold mb-4">
                 Missão, Visão e Valores
               </h2>
@@ -91,7 +91,7 @@ const About = () => {
               </div>
             </section>
 
-            <section className="mb-12">
+            <section className="mb-8">
               <h2 className="text-3xl font-semibold mb-4">Nossa História</h2>
               <p className="text-lg mb-4">
                 A <strong>ARD Garantia para motor câmbio</strong> foi fundada
@@ -110,41 +110,7 @@ const About = () => {
               </p>
             </section>
 
-            {/* Seção da Equipe */}
-            {/* <section className="mb-12">
-            <h2 className="text-3xl font-semibold mb-4">Nossa Equipe</h2>
-            <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-              <div className="bg-white p-4 rounded-lg shadow-md text-center">
-                <img
-                  src="/assets/team-member1.jpg" // Substitua com a URL da foto do membro da equipe
-                  alt="Membro da Equipe 1"
-                  className="w-32 h-32 rounded-full mx-auto mb-4"
-                />
-                <h3 className="text-xl font-semibold mb-2">João Silva</h3>
-                <p className="text-lg">CEO e Fundador</p>
-              </div>
-              <div className="bg-white p-4 rounded-lg shadow-md text-center">
-                <img
-                  src="/assets/team-member2.jpg" // Substitua com a URL da foto do membro da equipe
-                  alt="Membro da Equipe 2"
-                  className="w-32 h-32 rounded-full mx-auto mb-4"
-                />
-                <h3 className="text-xl font-semibold mb-2">Maria Oliveira</h3>
-                <p className="text-lg">Gerente de Operações</p>
-              </div>
-              <div className="bg-white p-4 rounded-lg shadow-md text-center">
-                <img
-                  src="/assets/team-member3.jpg" // Substitua com a URL da foto do membro da equipe
-                  alt="Membro da Equipe 3"
-                  className="w-32 h-32 rounded-full mx-auto mb-4"
-                />
-                <h3 className="text-xl font-semibold mb-2">Carlos Souza</h3>
-                <p className="text-lg">Diretor de Atendimento ao Cliente</p>
-              </div>
-            </div>
-          </section> */}
-
-            <section className="mb-12">
+            <section className="">
               <h2 className="text-3xl font-semibold mb-4">Nosso Impacto</h2>
               <p className="text-lg mb-4">
                 Ao longo dos anos, a{" "}
@@ -156,7 +122,7 @@ const About = () => {
                 máximo seus veículos sem preocupações com problemas mecânicos
                 inesperados.
               </p>
-              <p className="text-lg mb-4">
+              <p className="text-lg">
                 Estamos orgulhosos de nosso impacto positivo na comunidade local
                 e na vida de nossos clientes. Através de nossa abordagem
                 dedicada e inovadora, continuamos a expandir nossas operações e

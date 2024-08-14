@@ -83,7 +83,7 @@ const PrivacyPolicy = () => {
           </h2>
           <p className="mb-4">
             A LGPD tem como principal objetivo proteger os direitos relacionados
-            à privacidade dos Dados Pessoais dos indivíduos. A ARD AUTOGARANTE
+            à privacidade dos Dados Pessoais dos indivíduos. A ARD Garantia
             GaRANTIA MECÂNICA considera como algumas de suas finalidades:
           </p>
           <ul className="list-disc ml-8 mb-4">
