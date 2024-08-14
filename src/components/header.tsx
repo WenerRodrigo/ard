@@ -44,7 +44,7 @@ const Header = () => {
             Início
           </a>
           <a href="/about" className="hover:text-gray-600 font-medium">
-            A empresa
+            Sobre nós
           </a>
           <a
             href="#beneficios"

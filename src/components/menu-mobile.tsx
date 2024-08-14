@@ -109,6 +109,20 @@ const MenuMobile = () => {
             </li>
             <li className="my-2">
               <a
+                href="https://api.whatsapp.com/send?phone=+551699999999" target="_blank" rel="noreferrer"
+                onClick={() => handleLinkClick("https://api.whatsapp.com/send?phone=+551699999999")}
+                className={`flex items-center justify-between text-xl ${
+                  activeLink === "https://api.whatsapp.com/send?phone=+551699999999" ? "text-blue-500" : "text-zinc-800"
+                }`}
+              >
+                Fale conosco
+                <ChevronRight
+                  className={`${activeLink === "https://api.whatsapp.com/send?phone=+551699999999" ? "text-blue-500" : "text-zinc-800"}`}
+                />
+              </a>
+            </li>
+            <li className="my-2">
+              <a
                 href="/privacy-policy"
                 onClick={() => handleLinkClick("/privacy-policy")}
                 className={`flex items-center justify-between text-xl ${
@@ -123,6 +137,7 @@ const MenuMobile = () => {
                 />
               </a>
             </li>
+          
           </ul>
         </div>
       </div>
