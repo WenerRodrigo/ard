@@ -29,12 +29,14 @@ const Header = () => {
     <>
       <div className="bg-white flex justify-between items-center px-20">
         <div className="hidden lg:flex flex-col items-start justify-start w-full">
-          <h2 className="text-4xl font-extrabold text-blue-600 tracking-wide uppercase">
-            ARD
-          </h2>
-          <p className="text-lg font-semibold text-gray-900">
-            Garantia para motor e câmbio
-          </p>
+          <a href="/" className="items-start justify-start w-full flex-col">
+            <h2 className="text-4xl font-extrabold text-blue-600 tracking-wide uppercase">
+              ARD
+            </h2>
+            <p className="text-lg font-semibold text-gray-900">
+              Garantia para motor e câmbio
+            </p>
+          </a>
         </div>
 
         <div className="hidden lg:flex items-center justify-around w-full">

@@ -96,14 +96,30 @@ const MenuMobile = () => {
             <li className="my-2">
               <a
                 href="/faq"
-                onClick={() => handleLinkClick("/fqa")}
+                onClick={() => handleLinkClick("/faq")}
                 className={`flex items-center justify-between text-xl ${
                   activeLink === "/faq" ? "text-blue-500" : "text-zinc-800"
                 }`}
               >
-                Faq
+                FAQ
                 <ChevronRight
                   className={`${activeLink === "/faq" ? "text-blue-500" : "text-zinc-800"}`}
+                />
+              </a>
+            </li>
+            <li className="my-2">
+              <a
+                href="/privacy-policy"
+                onClick={() => handleLinkClick("/privacy-policy")}
+                className={`flex items-center justify-between text-xl ${
+                  activeLink === "/privacy-policy"
+                    ? "text-blue-500"
+                    : "text-zinc-800"
+                }`}
+              >
+                Política de privacidade
+                <ChevronRight
+                  className={`${activeLink === "/privacy-policy" ? "text-blue-500" : "text-zinc-800"}`}
                 />
               </a>
             </li>

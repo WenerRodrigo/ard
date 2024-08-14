@@ -88,7 +88,7 @@ const ContentFooter = () => {
           <p className="text-sm text-zinc-800">SAC: 16 99999 - 9999</p>
         </div>
       </div>
-      <div className="flex items-center justify-center absolute w-full bottom-0 border-b">
+      <div className="flex items-center justify-center absolute w-full bottom-0 border-b border-gray-300">
         <button
           className="bg-slate-200 px-2 py-1 rounde rounded-t-xl text-sm flex items-center gap-1 text-gray-600"
           onClick={scrollToTop}

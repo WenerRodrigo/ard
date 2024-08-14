@@ -13,6 +13,7 @@ import NotFound from "./screens/not-found";
 import PrivacyPolicy from "./screens/privacy-policy";
 import Header from "./components/header";
 import Faq from "./screens/faq";
+import About from "./screens/about";
 
 function App() {
   const [isSplashVisible, setIsSplashVisible] = useState(true);
@@ -61,6 +62,7 @@ function App() {
             <Route path="/home" element={<Home />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/faq" element={<Faq />} />
+            <Route path="/about" element={<About />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
