@@ -122,7 +122,7 @@ const Faq = () => {
           href="https://api.whatsapp.com/send?phone=+5516999999999"
           target="_blank"
           rel="noreferrer"
-          className="px-6 py-3 bg-blue-500 text-white rounded-lg transition-all duration-300 ease-in-out hover:bg-blue-600 hover:text-white hover:border-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
+          className="px-6 py-3 bg-blue-500 text-white rounded-sm transition-all duration-300 ease-in-out hover:bg-blue-600 hover:text-white hover:border-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
         >
           Fale conosco
         </a>

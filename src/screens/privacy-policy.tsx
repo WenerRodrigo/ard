@@ -41,9 +41,7 @@ const PrivacyPolicy = () => {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">
-            Termos e definições
-          </h2>
+          <h2 className="text-2xl font-semibold mb-4">Termos e definições</h2>
           <p className="mb-4">
             Para um melhor entendimento da presente política, é imprescindível
             conhecer algumas das mais importantes definições da Lei Geral de
@@ -84,7 +82,7 @@ const PrivacyPolicy = () => {
           <p className="mb-4">
             A LGPD tem como principal objetivo proteger os direitos relacionados
             à privacidade dos Dados Pessoais dos indivíduos. A ARD Garantia
-            GaRANTIA MECÂNICA considera como algumas de suas finalidades:
+            considera como algumas de suas finalidades:
           </p>
           <ul className="list-disc ml-8 mb-4">
             <li>Execução satisfatória dos Contratos;</li>
@@ -95,8 +93,7 @@ const PrivacyPolicy = () => {
             <li>Proteger informações contidas em processos e sistemas;</li>
             <li>Viabilizar o fornecimento dos seus serviços;</li>
             <li>
-              Para atender aos legítimos interesses da ARD AUTOGARANTE GaRANTIA
-              MECÂNICA;
+              Para atender aos legítimos interesses da ARD Garantia;
             </li>
             <li>
               Excepcionalmente para outras finalidades, sempre fundamentado nas
@@ -106,21 +103,16 @@ const PrivacyPolicy = () => {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">
-            Serviços de terceiros
-          </h2>
+          <h2 className="text-2xl font-semibold mb-4">Serviços de terceiros</h2>
           <p className="mb-4">
             Esta Política de Privacidade aplica-se apenas às informações
-            disponibilizadas à ARD Garantia para motor e câmbio. Nossos
-            serviços podem, eventualmente, incorporar serviços fornecidos por
-            terceiros.
+            disponibilizadas à ARD Garantia. Nossos serviços
+            podem, eventualmente, incorporar serviços fornecidos por terceiros.
           </p>
         </section>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">
-            Dos dados coletados
-          </h2>
+          <h2 className="text-2xl font-semibold mb-4">Dos dados coletados</h2>
           <p className="mb-4">Dados que você nos fornece:</p>
           <ul className="list-disc ml-8 mb-4">
             <li>
@@ -141,9 +133,9 @@ const PrivacyPolicy = () => {
             Com quem compartilhamos seus dados
           </h2>
           <p className="mb-4">
-            A ARD Garantia para motor e câmbio fica autorizada a compartilhar
-            os seus Dados Pessoais com outros agentes de tratamento de dados,
-            caso seja necessário para as finalidades dispostas neste termo,
+            A ARD Garantia fica autorizada a compartilhar os
+            seus Dados Pessoais com outros agentes de tratamento de dados, caso
+            seja necessário para as finalidades dispostas neste termo,
             observados os princípios e as garantias estabelecidas pela LGPD.
           </p>
         </section>
@@ -154,7 +146,7 @@ const PrivacyPolicy = () => {
           </h2>
           <p className="mb-4">
             Os dados tratados permanecerão armazenados nos sistemas da ARD
-            Garantia para motor e câmbio durante toda a relação contratual, de
+            Garantia durante toda a relação contratual, de
             acordo com a duração da finalidade inicial ou por causa do prazo
             determinado por obrigação legal e/ou regulatória.
           </p>
@@ -169,7 +161,7 @@ const PrivacyPolicy = () => {
           </p>
           <ul className="list-disc ml-8 mb-4">
             <li>
-              Confirmar com a ARD Garantia para motor e câmbio a existência de
+              Confirmar com a ARD Garantia a existência de
               tratamento de dados pessoais e obter, a qualquer tempo, acesso a
               esses dados;
             </li>
@@ -178,7 +170,7 @@ const PrivacyPolicy = () => {
               incompletos, inexatos ou desatualizados;
             </li>
             <li>
-              Requerer a exclusão de dados dos sistemas da ARD Garantia para motor e câmbio;
+              Requerer a exclusão de dados dos sistemas da ARD Garantia;
             </li>
             <li>Solicitar a rastreabilidade de seus dados;</li>
             <li>
@@ -194,10 +186,10 @@ const PrivacyPolicy = () => {
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">
-            Como a ARD Garantia para motor e câmbio protege sua informação
+            Como a ARD Garantia protege sua informação
           </h2>
           <p className="mb-4">
-            A ARD Garantia para motor e câmbio se empenha para proteger a sua
+            A ARD Garantia se empenha para proteger a sua
             privacidade e os seus Dados Pessoais de acessos não autorizados,
             destruição, perda, alteração, comunicação, divulgação ou qualquer
             forma de tratamento ilegal ou em desconformidade com a Lei.
@@ -210,7 +202,7 @@ const PrivacyPolicy = () => {
           </h2>
           <p className="mb-4">
             Caso você deseje acessar e/ou atualizar os dados informados à ARD
-            Garantia para motor e câmbio, não hesite em contatar a nossa equipe
+            Garantia, não hesite em contatar a nossa equipe
             através do e-mail - (ardmotoregarantia.com.br.)
           </p>
         </section>
@@ -220,7 +212,7 @@ const PrivacyPolicy = () => {
             Modificações nesta Política
           </h2>
           <p className="mb-4">
-            A ARD Garantia para motor e câmbio pode modificar esta Política de
+            A ARD Garantia pode modificar esta Política de
             Privacidade periodicamente para refletir as mudanças nas nossas
             práticas ou nas leis aplicáveis.
           </p>
@@ -232,7 +224,7 @@ const PrivacyPolicy = () => {
           </h2>
           <p className="mb-4">
             Esta Política de Privacidade é complementar a outras políticas e
-            declarações fornecidas pela ARD Garantia para motor e câmbio, que
+            declarações fornecidas pela ARD Garantia, que
             podem incluir termos de uso específicos para os serviços fornecidos
             pela empresa.
           </p>
@@ -240,13 +232,13 @@ const PrivacyPolicy = () => {
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">
-            Como contatar a ARD Garantia para motor e câmbio sobre esta
-            Política de Privacidade
+            Como contatar a ARD Garantia sobre esta Política
+            de Privacidade
           </h2>
           <p className="mb-4">
             Se você tiver dúvidas sobre esta Política de Privacidade, ou sobre
-            como a ARD Garantia para motor e câmbio coleta e usa os seus dados
-            pessoais, por favor, entre em contato conosco pelo e-mail - 
+            como a ARD Garantia coleta e usa os seus dados
+            pessoais, por favor, entre em contato conosco pelo e-mail -
             (ardmotoregarantia.com.br.)
           </p>
         </section>

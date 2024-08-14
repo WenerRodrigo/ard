@@ -27,7 +27,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="bg-white flex justify-between items-center px-20">
+      <div className="bg-white flex justify-between items-center px-20 lg:py-2">
         <div className="hidden lg:flex flex-col items-start justify-start w-full">
           <a href="/" className="items-start justify-start w-full flex-col">
             <h2 className="text-4xl font-extrabold text-blue-600 tracking-wide uppercase">
@@ -47,18 +47,18 @@ const Header = () => {
             Sobre nós
           </a>
           <a
-            href="#beneficios"
+            href="/faq"
             className="hover:text-gray-600 font-medium"
             onClick={scrollToBeneficios}
           >
-            Produtos
+            Dúvidas frequentes
           </a>
           <a
             href="https://api.whatsapp.com/send?phone=+551699999999"
             target="_blank"
-            className="font-medium bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-md"
+            className="font-medium bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-sm"
           >
-            Contato
+            Fale conosco
           </a>
         </div>
       </div>

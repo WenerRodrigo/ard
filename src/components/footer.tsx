@@ -1,7 +1,7 @@
 const Footer = () => {
   const anoAtual = new Date().getFullYear();
   const description = "ARD";
-  const mensagemDireitosAutorais = `© ${description} ${anoAtual} - Todos os direitos reservados.`;
+  const mensagemDireitosAutorais = `Copyright © ${description} ${anoAtual} - Todos os direitos reservados.`;
 
   return (
     <div className="flex items-center w-full justify-center gap-3 py-4 flex-col bg-secondary">

@@ -16,7 +16,7 @@ const ContentFooter = () => {
     <div className="relative">
       <div className="flex flex-col md:flex-row items-start justify-around w-full h-full bg-secondary text-zinc-800 py-16 px-5 flex-wrap text-left gap-4">
         <div className="flex flex-col items-start">
-          <h2 className="h-12 text-lg font-semibold">Nossa Missão</h2>
+          <h2 className="h-12 text-lg font-semibold ">Nossa Missão</h2>
           <p>
             Em um mercado altamente competitivo,
             <br />
