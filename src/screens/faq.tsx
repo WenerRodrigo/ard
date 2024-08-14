@@ -3,6 +3,7 @@ import Header from "../components/header";
 import banner from "../assets/banner-home.png";
 import ContentFooter from "../components/content-footer";
 import Footer from "../components/footer";
+import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 
 const Faq = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -91,26 +92,19 @@ const Faq = () => {
                 onClick={() => toggleOpen(index)}
               >
                 <h3 className="text-lg font-semibold">{faq.question}</h3>
-                <svg
-                  className={`w-8 h-8 transition-transform duration-300 ease-in-out ${
-                    openIndex === index ? "rotate-180" : ""
-                  }`}
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M19 9l-7 7-7-7"
+                {openIndex === index ? (
+                  <IoIosArrowUp
+                    className="w-6 h-6 transition-transform duration-300 ease-in-out"
                   />
-                </svg>
+                ) : (
+                  <IoIosArrowDown
+                    className="w-6 h-6 transition-transform duration-300 ease-in-out"
+                  />
+                )}
               </div>
               <div
                 className={`px-4 py-0 text-gray-600 overflow-hidden transition-max-height duration-500 ease-in-out ${
-                  openIndex === index ? "max-h-40" : "max-h-0"
+                  openIndex === index ? "max-h-60" : "max-h-0"
                 }`}
               >
                 {faq.answer}
