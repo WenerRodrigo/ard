@@ -22,7 +22,7 @@ const About = () => {
         </div>
       </div>
       <div className="bg-gray-100 py-12">
-        <div className="mx-auto px-20">
+        <div className="mx-auto lg:px-20 px-9">
           <div>
             <section className="mb-12">
               <h2 className="text-3xl font-semibold mb-4">Quem Somos</h2>
