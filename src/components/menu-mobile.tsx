@@ -70,7 +70,8 @@ const MenuMobile = () => {
                 href="/"
                 onClick={() => handleLinkClick("/")}
                 className={`flex items-center justify-between text-xl ${
-                  activeLink === "/" ? "text-blue-500" : "text-zinc-800"}`}
+                  activeLink === "/" ? "text-blue-500" : "text-zinc-800"
+                }`}
               >
                 Início
                 <ChevronRight
@@ -86,7 +87,7 @@ const MenuMobile = () => {
                   activeLink === "/about" ? "text-blue-500" : "text-zinc-800"
                 }`}
               >
-                A empresa
+                Sobre nós
                 <ChevronRight
                   className={`${activeLink === "/about" ? "text-blue-500" : "text-zinc-800"}`}
                 />

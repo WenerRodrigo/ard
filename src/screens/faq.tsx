@@ -39,7 +39,7 @@ const Faq = () => {
     },
     {
       question:
-        "Como proceder se meu veículo apresentar um defeito mecânico aos finais de semana?",
+        "Como proceder se meu veículo apresentar um defeito aos finais de semana?",
       answer:
         "É de sua responsabilidade o transporte do veículo até a oficina ou um local seguro para que no próximo dia útil você possa abrir um chamado em horário comercial e verificar uma oficina indicada pelos técnicos.",
     },
@@ -92,7 +92,7 @@ const Faq = () => {
               >
                 <h3 className="text-lg font-semibold">{faq.question}</h3>
                 <svg
-                  className={`w-6 h-6 transition-transform duration-300 ease-in-out ${
+                  className={`w-8 h-8 transition-transform duration-300 ease-in-out ${
                     openIndex === index ? "rotate-180" : ""
                   }`}
                   fill="none"
@@ -109,7 +109,7 @@ const Faq = () => {
                 </svg>
               </div>
               <div
-                className={`px-4 py-1 text-gray-600 overflow-hidden transition-max-height duration-500 ease-in-out ${
+                className={`px-4 py-0 text-gray-600 overflow-hidden transition-max-height duration-500 ease-in-out ${
                   openIndex === index ? "max-h-40" : "max-h-0"
                 }`}
               >
