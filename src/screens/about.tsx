@@ -25,7 +25,7 @@ const About = () => {
         <div className="mx-auto lg:px-20 px-5">
           <div>
             <section className="mb-12">
-              <h2 className="text-3xl font-semibold mb-4">Quem Somos</h2>
+              <h2 className="text-3xl font-semibold mb-4 text-blue-600">Quem Somos</h2>
               <p className="text-lg mb-4">
                 Localizada em Ribeirão Preto, SP, a{" "}
                 <strong>ARD Garantia para motor câmbio</strong> é especializada
@@ -45,7 +45,7 @@ const About = () => {
             </section>
 
             <section className="mb-8">
-              <h2 className="text-3xl font-semibold mb-4">
+              <h2 className="text-3xl font-semibold mb-4 text-blue-600">
                 Missão, Visão e Valores
               </h2>
               <div className="grid gap-8 md:grid-cols-1">
@@ -92,7 +92,7 @@ const About = () => {
             </section>
 
             <section className="mb-8">
-              <h2 className="text-3xl font-semibold mb-4">Nossa História</h2>
+              <h2 className="text-3xl font-semibold mb-4 text-blue-600">Nossa História</h2>
               <p className="text-lg mb-4">
                 A <strong>ARD Garantia para motor câmbio</strong> foi fundada
                 com o propósito de suprir uma lacuna no mercado de veículos
@@ -111,7 +111,7 @@ const About = () => {
             </section>
 
             <section className="">
-              <h2 className="text-3xl font-semibold mb-4">Nosso Impacto</h2>
+              <h2 className="text-3xl font-semibold mb-4 text-blue-600">Nosso Impacto</h2>
               <p className="text-lg mb-4">
                 Ao longo dos anos, a{" "}
                 <strong>ARD Garantia para motor câmbio</strong> tem se destacado
