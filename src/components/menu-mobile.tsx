@@ -94,15 +94,15 @@ const MenuMobile = () => {
             </li>
             <li className="my-2">
               <a
-                href="/about"
-                onClick={() => handleLinkClick("/about")}
+                href="/faq"
+                onClick={() => handleLinkClick("/fqa")}
                 className={`flex items-center justify-between text-xl ${
-                  activeLink === "/about" ? "text-blue-500" : "text-zinc-800"
+                  activeLink === "/faq" ? "text-blue-500" : "text-zinc-800"
                 }`}
               >
-                A empresa
+                Faq
                 <ChevronRight
-                  className={`${activeLink === "/about" ? "text-blue-500" : "text-zinc-800"}`}
+                  className={`${activeLink === "/faq" ? "text-blue-500" : "text-zinc-800"}`}
                 />
               </a>
             </li>
