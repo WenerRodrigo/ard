@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import MenuMobile from "./menu-mobile";
 
 const Header = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [_isOpen, setIsOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement | null>(null);
 
   const handleClickOutside = (event: MouseEvent) => {

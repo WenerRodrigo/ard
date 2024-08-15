@@ -4,7 +4,6 @@ import bannerTwo from "../assets/banner-main02.png";
 const AboutHome = () => {
   return (
     <div className="flex flex-col lg:flex-row items-start w-full mt-16 px-6 lg:px-20 mb-16">
-      {/* Bloco de Texto */}
       <div className="flex flex-col items-start w-full text-start mb-8 lg:mb-0 lg:w-1/2 lg:pr-10">
         <div className="border-t-4 border-blue-600 w-1/5 mb-6"></div>
         <h1 className="text-3xl lg:text-5xl font-bold mb-6">Quem somos</h1>

@@ -1,6 +1,5 @@
 import { FaRegCheckCircle } from "react-icons/fa";
 import { motion } from "framer-motion";
-// import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 
 function Beneficios() {
