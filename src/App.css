@@ -1,5 +1,6 @@
 body {
-  font-family: "Karla", sans-serif !important;
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
+    line-height: inherit;
+    font-family: 'karla', sans-serif;
 }

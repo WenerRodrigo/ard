@@ -7,10 +7,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "primary": "#151414",
-        "secondary": "#e9ecef",
-      }
+        primary: "#151414",
+        secondary: "#e9ecef",
+      },
+      fontFamily: {
+        karla: ["Karla", "sans-serif"],
+      },
     },
   },
   plugins: [],
-}
+};
