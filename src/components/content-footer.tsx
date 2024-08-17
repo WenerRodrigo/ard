@@ -69,7 +69,7 @@ const ContentFooter = () => {
           <p>
             <a
               className="flex gap-2"
-              href="mailto: werowebsolutions@.com.br"
+              href="mailto: contato@ardmotorecambio.com.br"
               rel="noopener noreferrer"
             >
               <TfiEmail size={22} />
