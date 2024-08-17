@@ -203,7 +203,7 @@ const PrivacyPolicy = () => {
           <p className="mb-4">
             Caso você deseje acessar e/ou atualizar os dados informados à ARD
             Garantia, não hesite em contatar a nossa equipe
-            através do e-mail - (ardmotoregarantia.com.br.)
+            através do e-mail - (contato@ardmotorecambio.com.br)
           </p>
         </section>
 
@@ -239,7 +239,7 @@ const PrivacyPolicy = () => {
             Se você tiver dúvidas sobre esta Política de Privacidade, ou sobre
             como a ARD Garantia coleta e usa os seus dados
             pessoais, por favor, entre em contato conosco pelo e-mail -
-            (ardmotoregarantia.com.br.)
+            (contato@ardmotorecambio.com.br)
           </p>
         </section>
       </div>

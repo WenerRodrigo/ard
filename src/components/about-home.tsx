@@ -17,7 +17,7 @@ const AboutHome = () => {
         </p>
         <div className="flex justify-center mt-10">
           <a
-            href="#"
+           href="https://api.whatsapp.com/send?phone=+5516981115555" target="_blank" rel="noreferrer"
             className="px-10 py-2 bg-blue-500 text-white text-center rounded-sm hover:bg-blue-600 block w-full lg:w-auto"
           >
             Fale conosco

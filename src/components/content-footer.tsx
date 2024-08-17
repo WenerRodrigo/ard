@@ -58,12 +58,12 @@ const ContentFooter = () => {
           <p>
             <a
               className="flex gap-2 mb-2"
-              href="https://api.whatsapp.com/send?phone=+5516999999999"
+              href="https://api.whatsapp.com/send?phone=+5516981115555"
               target="_blank"
               rel="noreferrer"
             >
               <FaWhatsapp size={22} />
-              (16) 99999-9999
+              (16) 98111 - 5555
             </a>
           </p>
           <p>
@@ -73,7 +73,7 @@ const ContentFooter = () => {
               rel="noopener noreferrer"
             >
               <TfiEmail size={22} />
-              ardgarantiamotorecambio.com.br
+              contato@ardmotorecambio.com.br
             </a>
           </p>
         </div>
@@ -85,7 +85,7 @@ const ContentFooter = () => {
             Razão Social: Ard Garantia De Motor E Cambio Ltda
           </p>
           <p className="text-sm text-zinc-800">CNPJ: 56.283.588/0001-92</p>
-          <p className="text-sm text-zinc-800">SAC: 16 99999 - 9999</p>
+          <p className="text-sm text-zinc-800">SAC: 16 98111 - 5555</p>
         </div>
       </div>
       <div className="flex items-center justify-center absolute w-full bottom-0 border-b border-gray-300">
