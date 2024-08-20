@@ -13,7 +13,7 @@ const Banner = () => {
           seu veículo precisa
         </p>
         <p className="text-gray-300 text-base sm:text-xl">
-          Proteja o seu investimento com a gente, sua satisfação
+          Proteja o seu investimento com a gente, sua satisfação&nbsp;
           <br className="hidden sm:block" />
           é a nossa prioridade.
         </p>

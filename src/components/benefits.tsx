@@ -49,7 +49,7 @@ function Beneficios() {
           },
           {
             title: "Garantia Limite de",
-            subtitle: "100.000 km",
+            subtitle: "40.000 km",
             text: "A nossa garantia proporciona uma cobertura ampliada por um período extra de quilometragem, oferecendo maior segurança e tranquilidade ao proprietário do veículo em questão.",
           },
         ].map((item, index) => (
