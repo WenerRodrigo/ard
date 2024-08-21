@@ -27,48 +27,42 @@ function App() {
       {isSplashVisible ? (
         <SplashScreen onFinish={handleSplashFinish} />
       ) : (
-        // <BrowserRouter>
-        //   <Routes>
-        //     <Route
-        //       path="/"
-        //       element={
-        //         <>
-        //           <TopHeader />
-        //           <Header />
-        //           <Banner />
-        //           <Home />
-        //           <div className="fixed bottom-10 right-5 z-40 flex items-center space-x-2">
-        //             <a
-        //               href="https://api.whatsapp.com/send?phone=+5516981115555"
-        //               target="_blank"
-        //               rel="noreferrer"
-        //               className="items-center"
-        //             >
-        //               <img
-        //                 src={whatsapp}
-        //                 alt="WhatsApp"
-        //                 className="w-12 text-center object-cover"
-        //                 title="WhatsApp"
-        //               />
-        //             </a>
-        //           </div>
-        //           <MainContent />
-        //           <ContentFooter />
-        //           <Footer />
-        //           <CookieConsent />
-        //         </>
-        //       }
-        //     />
-        //     <Route path="/home" element={<Home />} />
-        //     <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-        //     <Route path="/faq" element={<Faq />} />
-        //     <Route path="/about" element={<About />} />
-        //     <Route path="*" element={<NotFound />} />
-        //   </Routes>
-        // </BrowserRouter>
         <BrowserRouter>
           <Routes>
-            {/* Redireciona todas as rotas para a página 404 */}
+            <Route
+              path="/"
+              element={
+                <>
+                  <TopHeader />
+                  <Header />
+                  <Banner />
+                  <Home />
+                  <div className="fixed bottom-10 right-5 z-40 flex items-center space-x-2">
+                    <a
+                      href="https://api.whatsapp.com/send?phone=+5516981115555"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="items-center"
+                    >
+                      <img
+                        src={whatsapp}
+                        alt="WhatsApp"
+                        className="w-12 text-center object-cover"
+                        title="WhatsApp"
+                      />
+                    </a>
+                  </div>
+                  <MainContent />
+                  <ContentFooter />
+                  <Footer />
+                  <CookieConsent />
+                </>
+              }
+            />
+            <Route path="/home" element={<Home />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/faq" element={<Faq />} />
+            <Route path="/about" element={<About />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
