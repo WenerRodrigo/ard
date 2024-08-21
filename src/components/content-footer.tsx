@@ -52,7 +52,7 @@ const ContentFooter = () => {
               </a>
               <a
                 target="_blank"
-                href="https://www.facebook.com/ardgarantia/"
+                href="https://www.facebook.com/share/N6JKQzJvuJ2h1meQ/?mibextid=LQQJ4d"
                 rel="noreferrer"
               >
                 <img className="w-9" src={facebook} alt="Facebook" />
