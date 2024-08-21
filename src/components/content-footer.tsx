@@ -43,10 +43,10 @@ const ContentFooter = () => {
           <div className="flex flex-col items-start mt-2">
             <h2 className="h-12 text-lg font-semibold">Redes Sociais</h2>
             <div className="flex items-center gap-2">
-              <a href="#">
+              <a href="https://www.instagram.com/ardgarantia/">
                 <img className="w-9" src={instagram} alt="Instagram" />
               </a>
-              <a target="_blank" rel="noreferrer" href="#">
+              <a target="_blank" rel="noreferrer" href="https://www.facebook.com/ardgarantia/">
                 <img className="w-9" src={facebook} alt="Facebook" />
               </a>
             </div>
