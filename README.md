@@ -1,4 +1,5 @@
-<img width="1362" height="762" alt="image" src="https://github.com/user-attachments/assets/efffc84f-9b07-4752-98cf-17dd87a39cfa" />
+<img width="1364" height="766" alt="image" src="https://github.com/user-attachments/assets/24df1c8b-6985-4849-9c0f-86c889f9c194" />
+
 
 
 ARD Garantia - Site Institucional
