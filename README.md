@@ -1,50 +1,48 @@
-# React + TypeScript + Vite
+<img width="1362" height="762" alt="image" src="https://github.com/user-attachments/assets/efffc84f-9b07-4752-98cf-17dd87a39cfa" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+ARD Garantia - Site Institucional
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto é um site institucional desenvolvido para a empresa ARD Garantia, especializada em garantia estendida para motor e câmbio de veículos semi-novos.
 
-## Expanding the ESLint configuration
+O objetivo do site é apresentar os serviços da empresa, transmitir credibilidade e oferecer informações claras para clientes que buscam segurança para seus veículos.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+📌 Tecnologias Utilizadas
 
-- Configure the top-level `parserOptions` property like this:
+React – Biblioteca JavaScript para construção da interface.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+TypeScript – Superset do JavaScript que adiciona tipagem estática para maior segurança e escalabilidade.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Tailwind CSS – Framework CSS para estilização com classes utilitárias, proporcionando responsividade e agilidade no desenvolvimento.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+✨ Funcionalidades do Projeto
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+✅ Página inicial com banner atrativo e chamada para ação.
+
+✅ Seção "Quem Somos" apresentando informações institucionais.
+
+✅ Menu de navegação responsivo com versão desktop e mobile.
+
+✅ Formulário de contato para atendimento ao cliente.
+
+✅ Botão do WhatsApp para atendimento rápido.
+
+✅ Responsividade completa para dispositivos móveis.
+
+
+Passos para rodar o projeto
+# Clone o repositório
+git clone https://github.com/seu-usuario/ard-garantia.git
+
+# Acesse a pasta do projeto
+cd ard-garantia
+
+# Instale as dependências
+npm install
+# ou
+yarn install
+
+# Rode o projeto em ambiente de desenvolvimento
+npm run dev
+# ou
+yarn dev
