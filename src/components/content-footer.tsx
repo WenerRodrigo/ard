@@ -71,7 +71,7 @@ const ContentFooter = () => {
               rel="noreferrer"
             >
               <FaWhatsapp size={22} />
-              (16) 98111 - 5555
+              (16) 99999 - 9999
             </a>
           </p>
           <p>
@@ -92,8 +92,8 @@ const ContentFooter = () => {
           <p className="text-sm text-zinc-800">
             Razão Social: Ard Garantia De Motor E Cambio Ltda
           </p>
-          <p className="text-sm text-zinc-800">CNPJ: 56.283.588/0001-92</p>
-          <p className="text-sm text-zinc-800">SAC: 16 98111 - 5555</p>
+          <p className="text-sm text-zinc-800">CNPJ: 12.245.678/0001-00</p>
+          <p className="text-sm text-zinc-800">SAC: 16 99999 - 9999</p>
         </div>
       </div>
       <div className="flex items-center justify-center absolute w-full bottom-0 border-b border-gray-300">
